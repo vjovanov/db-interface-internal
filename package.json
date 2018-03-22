@@ -1,0 +1,22 @@
+{
+  "name": "mle",
+  "version": "0.1.0",
+  "description": "Bindings for the Multi-Lingual Engine",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vjovanov/mle"
+  },
+  "keywords": [
+    "MySQL",
+    "Graal",
+    "MLE",
+    "Polyglot",
+    "Stored Programs"
+  ],
+  "author": "Vojin Jovanovic",
+  "contributors": [
+    "Vojin Jovanovic <vojin.jovanovic@oracle.com>"
+  ],
+  "license": "UPL"
+}
