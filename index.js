@@ -1,14 +1,14 @@
 function enabled() {
-  var isPolyglot = typeof Interop == 'object' &&
-    typeof Interop.import == 'function';
+  var isPolyglot = typeof Polyglot == 'object' &&
+    typeof Polyglot.import == 'function';
   if (!isPolyglot) {
     return false;
   }
-  var mle = Interop.import('mle');
+  var mle = Polyglot.import('mle');
   return mle != undefined  && mle.__mle_magic_number == 2668046;
 }
 
-var mle = enabled() ? Interop.import('mle') : undefined;
+var mle = enabled() ? Polyglot.import('mle') : undefined;
 function env() {
   if (!enabled()) {
     return undefined;
